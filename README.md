@@ -14,3 +14,25 @@ It is part of a larger **microservices architecture** for a future e-commerce pl
 - **[Docker Compose](https://docs.docker.com/compose/)** → orchestration of containers
 
 ---
+
+## 🚀 How to Run the Project
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repo-url>
+   cd user-service
+   ```
+
+2. **Start the containers**
+
+```bash
+docker compose up --build
+```
+
+3. ## 🔗 Access the API
+
+- **Root endpoint**: [http://localhost:8000](http://localhost:8000) → returns
+  ```json
+  { "message": "Hello World" }
+  ```

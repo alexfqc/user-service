@@ -20,7 +20,7 @@ It is part of a larger **microservices architecture** for a future e-commerce pl
 1. **Clone the repository**
 
    ```bash
-   git clone <repo-url>
+   git clone git@github.com:alexfqc/user-service.git
    cd user-service
    ```
 
